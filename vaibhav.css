@@ -1,0 +1,49 @@
+body{
+    background-color: #ff9f1c;
+    /*background-repeat: no-repeat; */
+    background-size:cover;
+    background-attachment: inherit;
+    background-position: fixed;
+    background-origin: inherit;
+   
+}.a{
+    background-image:linear-gradient(110deg,#fb8500,rgb(231, 231, 233),rgb(2, 118, 2));
+    font-size: 20px;
+    font-display: blue;
+    width: 2000px;
+    height: 100px;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    width: 700px;
+    height: 210px;
+    background-color: oldlace;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card > img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px 0 0 0;
+    position: absolute;
+}
+.card > h2 {
+    text-align: center;
+    margin-left: 260px;
+}
+.card > button {
+    width: 100px;
+    height: 25px;
+    float: right;
+    margin-right: 10px;
+    
+}
+.card > p { 
+    margin-left: 260px;
+    margin-bottom: -2px;
+    word-wrap: break-word;
+}
