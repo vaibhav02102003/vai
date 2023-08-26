@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: url(https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-3-030-97046-8_23/MediaObjects/468136_2_En_23_Fig1_HTML.png;)
     /*background-repeat: no-repeat; */
     background-size:cover;
     background-attachment: inherit;
@@ -52,6 +52,6 @@ body{
     font-size: 20px;
     font-display: blue;
     width: 2000px;
-    height: 100px;
+    height: 80px;
     padding: 20px;
 }
